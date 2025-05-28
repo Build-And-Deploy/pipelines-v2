@@ -17,6 +17,13 @@ def call() {
           checkout scm
         }
 
+        stage('PWD') {
+          steps {
+            sh "pwd"
+          }
+
+        }
+
       }
 
       // stage('Pull') {
