@@ -22,10 +22,7 @@ def call() {
         steps {
           sh "pwd"
           }
-
         }
-
-      }
 
       // stage('Pull') {
       //   steps {
