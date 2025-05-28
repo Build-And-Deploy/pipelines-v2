@@ -12,6 +12,13 @@ def call() {
         }
       }
 
+      stages('Checkout SCM') {
+        steps {
+          checkout scm
+        }
+
+      }
+
       // stage('Pull') {
       //   steps {
       //     sh 'docker pull $IMAGE'
