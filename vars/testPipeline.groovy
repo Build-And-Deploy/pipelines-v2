@@ -12,7 +12,7 @@ def call() {
         }
       }
 
-      stages('Checkout SCM') {
+      stage('Checkout SCM') {
         steps {
           checkout scm
         }
