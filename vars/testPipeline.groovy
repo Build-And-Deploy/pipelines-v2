@@ -8,7 +8,7 @@ def call() {
 
       stage('Test Print') {
         steps {
-
+          echo "Running pipeline..."
         }
 
       }
